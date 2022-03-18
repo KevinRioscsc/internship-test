@@ -1,0 +1,8 @@
+export {default as logo} from './Icons/logo.svg'
+export {default as squares} from './Icons/black_squares.svg'
+export {default as calender} from './Icons/calender.svg'
+export {default as cash} from './Icons/cash.svg'
+export {default as chat} from './Icons/chat.svg'
+export {default as people} from './Icons/people.svg'
+export {default as setting} from './Icons/setting.svg'
+export {default as student} from './Icons/student.svg'

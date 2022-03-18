@@ -1,0 +1,29 @@
+.dashboard{
+    position: absolute;
+    z-index: -99;
+    height: 116px;
+    width: calc(100% - 170px);
+    left: 170px;
+    background-color: #fff;
+    box-shadow: 0px 4px 40px rgba(211, 211, 211, 0.2);
+}
+.dashboard-flex{
+    padding: 10px 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hover{
+    cursor: pointer;
+}
+.icons-dash{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #8E8E8E;
+
+}

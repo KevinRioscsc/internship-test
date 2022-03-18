@@ -1,0 +1,67 @@
+
+  .content-main{
+    padding: 30px 59px;
+    position: relative;
+    border-bottom: 1px solid #F6F6F6;
+  }
+.line{
+    width: 40px;
+    border: 1px solid #000000;
+}
+.title-select{
+    font-size: 20px;
+}
+.select{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.btn-content{
+    outline: none;
+    font-size: 20px;
+    padding: 17px 28px;
+    background: #FFFFFF;
+    border: 1px solid #2697FE;
+    font-weight: 600;
+    font-style: semi-bold;
+    color:#2697FE ;
+    box-sizing: border-box;
+    border-radius: 6px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 3%;
+}
+.btn-content:hover{
+    background-color: #2697FE;
+    color: white;
+}
+
+.select-dropdown select:active, .select-dropdown select:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  select {
+    width: 150px;
+    padding: 14px;
+    
+    background: #F7F7F7;
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+   
+    /* needed */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* SVG background image */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+      background-size: .6em;
+      background-position: calc(100% - 1.3em) center;
+      background-repeat: no-repeat;
+  }

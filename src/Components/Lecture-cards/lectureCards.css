@@ -1,0 +1,47 @@
+.lectureCards{
+    padding: 30px 47px;
+    border: 1px solid #EBEBEB;
+}
+.lecture-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.lectTitle{
+    font-weight: 400;
+    font-size: 20px;
+    color: #9C9C9C;
+}
+.typo{
+    font-weight: 500;
+    font-size: 28px;
+    color: #2697FE;
+}
+.timelect{
+    font-weight: 400;
+    font-size: 14px;
+    color: #9C9C9C;
+}
+.dates{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.records{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2697FE;
+    cursor: pointer;
+
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.m0{
+    margin: 0;
+}

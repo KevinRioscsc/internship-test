@@ -1,0 +1,38 @@
+.navbar{
+    width: 171px;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 40px rgba(211, 211, 211, 0.2);
+    padding: 6px 14px;
+}
+.navbar-flex{
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+.people{
+    width: 74.37px;
+    height: 69.34px;
+    cursor: pointer;
+    background-color: #2697FE;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

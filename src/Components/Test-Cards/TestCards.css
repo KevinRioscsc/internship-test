@@ -1,0 +1,32 @@
+.card{
+    width: 1553px;
+    background: #FEFEFE;
+    border: 1px solid #D2D2D2;
+    border-radius: 10px;
+    margin-top: 38px;
+    margin-left: 61px;
+}
+.card-content{
+    padding: 30px 19px;
+}
+.time-flex{
+    display: flex;
+    gap: 17px;
+}
+.endtime{
+    display: flex;
+    gap: 10px;
+}
+.date{
+    color: #9C9C9C;
+
+}
+.description{
+    font-weight: 400;
+}
+.test{
+    margin: 0;
+}
+.exact{
+    font-weight: 400;
+}

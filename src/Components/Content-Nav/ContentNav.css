@@ -1,0 +1,28 @@
+.arrow{
+    display: inline-block;
+}
+.navbarContent{
+    display: flex;
+    gap: 47px;
+    align-items: center;
+    padding: 10px 25px;
+    border-bottom: 1px solid #C2BBBB;
+    
+}
+.nav-links{
+    font-weight: 500;
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    transition: all .2s ease-in-out;
+  
+}
+
+.links-flex{
+    display: flex;
+    gap: 100px;
+}
+.nav-links:hover{
+    color: #2697FE;
+
+}
